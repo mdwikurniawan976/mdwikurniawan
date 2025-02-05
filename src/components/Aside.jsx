@@ -6,7 +6,7 @@ const Aside = () => {
         <div className="sidebar-info">
           <figure className="avatar-box">
             <img
-              src={"/images/mamun.jpg"}
+              src={"/images/foto.png"}
               alt="Richard hanrick"
               width="80"
             />
@@ -14,10 +14,10 @@ const Aside = () => {
 
           <div className="info-content">
             <h1 className="name" title="Richard hanrick">
-              Md AL Mamun
+              Dwi Kurniawan
             </h1>
 
-            <p className="title">Web developer</p>
+            <p className="title">Junior Software developer</p>
           </div>
 
           <button className="info_more-btn" data-sidebar-btn>
@@ -40,8 +40,8 @@ const Aside = () => {
               <div className="contact-info">
                 <p className="contact-title">Email</p>
 
-                <a href="mailto:richard@example.com" className="contact-link">
-                  richard@example.com
+                <a href="mailto:mdwikurniawan976@gmail.com" className="contact-link">
+                  mdwikurniawan976@gmail.com
                 </a>
               </div>
             </li>
@@ -52,26 +52,13 @@ const Aside = () => {
               </div>
 
               <div className="contact-info">
-                <p className="contact-title">Phone</p>
-
-                <a href="tel:+12133522795" className="contact-link">
-                  +1 (213) 352-2795
-                </a>
+                <p className="contact-title">Education</p>
+                <p className="contact-link">SMKN 1 Bangil</p>
               </div>
             </li>
 
-            <li className="contact-item">
-              <div className="icon-box">
-                <GiCalendar/>
-               
-              </div>
 
-              <div className="contact-info">
-                <p className="contact-title">Birthday</p>
-
-                <time dateTime="1982-06-23">June 23, 1982</time>
-              </div>
-            </li>
+           
 
             <li className="contact-item">
               <div className="icon-box">
@@ -82,7 +69,7 @@ const Aside = () => {
               <div className="contact-info">
                 <p className="contact-title">Location</p>
 
-                <address>Sacramento, California, USA</address>
+                <address>Pasuruan, East Java, Indonesia</address>
               </div>
             </li>
           </ul>

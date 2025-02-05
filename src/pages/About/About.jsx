@@ -18,13 +18,14 @@ const servicesData = [
   {
     icon: "/images/icon-app.svg",
     title: "Mobile apps",
-    description: "Professional development of applications for iOS and Android."
+    description: "Professional development of applications for  Android."
   },
   {
-    icon: "/images/icon-photo.svg",
-    title: "Photography",
-    description: "I make high-quality photos of any category at a professional level."
+    icon: "/images/paper-pin.png",
+    title: "Dekstop Apps",
+    description: "I develop high-quality desktop applications, delivering professional-grade software solutions tailored to your needs."
   }
+  
 ];
 
 
@@ -44,20 +45,24 @@ const About = () => {
     </header>
 
     <section className="about-text">
-      <p>
-        I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-        I enjoy
-        turning complex problems into simple, beautiful and intuitive designs.
-      </p>
+  <p>
+    Hi! I am M. Dwi Kurniawan, a high school student specializing in IT at SMKN 1 Bangil. I am an app developer with expertise in Kotlin and C#, and I also have experience in web development using HTML, CSS, JavaScript, and Laravel.
+  </p>
 
-      <p>
-        My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-        Moreover, I
-        add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-        across your
-        message and identity in the most creative way. I created web design for many famous brand companies.
-      </p>
-    </section>
+  <p>
+    Passionate about creating robust applications, I focus on both desktop and mobile platforms. My goal is to deliver high-quality software solutions that are efficient, scalable, and user-friendly.
+  </p>
+
+  <p>
+    I am committed to continuous learning and adapting to new technologies, ensuring I stay at the forefront of the industry. My approach to development is detail-oriented and client-focused, striving to turn complex requirements into seamless and elegant solutions.
+  </p>
+
+  <p>
+    Alongside my technical skills, I value clear communication and collaboration, working closely with clients to exceed their expectations and deliver successful project outcomes.
+  </p>
+</section>
+
+
 
 
     {/* <!--
@@ -90,7 +95,7 @@ const About = () => {
 
     <section className="testimonials">
 
-      <h3 className="h3 testimonials-title">Testimonials</h3>
+      <h3 className="h3 testimonials-title">Certificates</h3>
 
       <ul className="testimonials-list has-scrollbar">
 
@@ -112,51 +117,58 @@ const About = () => {
       - clients
     --> */}
 
-    <section className="clients">
+{/* <section className="skillsa">
+  <h3 className="h3 skills-title">My Skills</h3>
+  <ul className="skillsa-list">
+    <li className="skillsa-item">
+      <a href="#">
+        <img src="images/kotlin.png" alt="Kotlin"/>
+      </a>
+    </li>
+    <li className="skillsa-item">
+      <a href="#">
+        <img src="images/csharp.png" alt="C#"/>
+      </a>
+    </li>
+    <li className="skillsa-item">
+      <a href="#">
+        <img src="images/figma.svg" alt="Figma"/>
+      </a>
+    </li>
+    <li className="skillsa-item">
+      <a href="#">
+        <img src="images/mysql.svg" alt="mysql"/>
+      </a>
+    </li>
+    <li className="skillsa-item">
+      <a href="#">
+        <img src="images/javasript-logo.svg" alt="js"/>
+      </a>
+    </li>
+    <li className="skillsa-item">
+      <a href="#">
+        <img src="images/ssms.png" alt="SQL Server"/>
+      </a>
+    </li>
+    <li className="skillsa-item">
+      <a href="#">
+        <img src="images/laravel.png" alt="Laravel"/>
+      </a>
+    </li>
+    <li className="skillsa-item">
+      <a href="#">
+        <img src="images/html.png" alt="HTML"/>
+      </a>
+    </li>
+    <li className="skillsa-item">
+      <a href="#">
+        <img src="images/css3.svg" alt="CSS"/>
+      </a>
+    </li>
+  </ul>
+</section> */}
 
-      <h3 className="h3 clients-title">Clients</h3>
 
-      <ul className="clients-list has-scrollbar">
-
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-1-color.png" alt="client logo"/>
-          </a>
-        </li>
-
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-2-color.png" alt="client logo"/>
-          </a>
-        </li>
-
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-3-color.png" alt="client logo"/>
-          </a>
-        </li>
-
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-4-color.png" alt="client logo"/>
-          </a>
-        </li>
-
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-5-color.png" alt="client logo"/>
-          </a>
-        </li>
-
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-6-color.png"alt="client logo"/>
-          </a>
-        </li>
-
-      </ul>
-
-    </section>
 
   </article>
   )

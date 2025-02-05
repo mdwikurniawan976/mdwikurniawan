@@ -772,7 +772,7 @@ main {
 }
 
 .skill-progress-fill {
-  background: rebeccapurple;
+  background: rgb(26, 23, 156);
   height: 100%;
   border-radius: inherit;
 }
@@ -1164,6 +1164,24 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+.skillsa-list  {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skillsa-item {
+  flex: 1 1 80px; /* Item akan memiliki ukuran minimal 100px dan bisa tumbuh hingga maksimal */
+  margin: 10px;
+  text-align: center;
+}
+
+.skillsa-item img {
+  max-width: 80px; /* Membatasi lebar gambar */
+  height: auto; /* Agar proporsi gambar tetap terjaga */
+}
 
 
 /**
